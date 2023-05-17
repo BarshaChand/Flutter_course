@@ -1,3 +1,5 @@
+// Arithmetic operations
+
 math(double a, double b, String value) {
   if (value == "sum") {
     double sum = a + b;
@@ -29,3 +31,4 @@ void main() {
   print("The division of the two numbers is $div");
   print("The multiplication of the two numbers is $mult");
 }
+
