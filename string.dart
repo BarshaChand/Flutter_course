@@ -1,7 +1,8 @@
-import 'dart:io';
-
 void main() {
-  print("Enter name:");
-  String? name  = stdin.readLineSync();
-  print("Your name is ${name}");
+// Declaring Values     
+String schoolName = "Kanchan Vidya Mandir";
+String address = "Kanchanpur";   
+
+// Printing Values
+print("My School's name is $schoolName and is located in $address");   
 }
