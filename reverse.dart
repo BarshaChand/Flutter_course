@@ -1,6 +1,5 @@
-// If you want to reverse a String in Dart, you can reverse it using a different solution.
-
-void main() { 
-  String input = "HELLO_WORLD"; 
-  print("$input Reverse is ${input.split('').reversed.join()}"); 
-} 
+// Reverse List In Dart
+void main() {
+   List<String> drinks = ["water", "juice", "milk", "coke"];
+   print("List in reverse: ${drinks.reversed}");
+}  
